@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav>
+      <div class="left-side">
+          <img src="images/logo.png" alt="logo" />
+        </a>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="aboutme.html">About Me</a>
+          </li>
+          <li>
+            <a href="myproject.html">My Project</a>
+          </li>
+        </ul>
+      </div>
+      <div class="right-side">
+        <a href="contact.html"> Contact Me </a>
+      </div>
+    </nav>
+
+    <!-- Form Contact -->
+    <center>
+        <form style="width: 400px; margin-top: 80px; text-align: left;">
+            <div>
+                <label for="name" style="font-size: 20px; font-weight: bold;"> Nama </label>
+                <input id="name" type="text" name="name" style="
+                  width: 100%;
+                  padding: 8px;
+                  box-sizing: border-box;
+                  margin-top: 5px;
+                  margin-bottom: 20px;
+                  background-color: whitesmoke;
+                  border: 1px solid gray;
+                  border-radius: 8px;
+                ">
+            </div>
+            <div>
+                <label for="email" style="font-size: 20px; font-weight: bold;"> Email </label>
+                <input id="email" type="email" name="email" style="
+                width: 100%;
+                padding: 8px;
+                box-sizing: border-box;
+                margin-top: 5px;
+                margin-bottom: 20px;
+                background-color: whitesmoke;
+                border: 1px solid gray;
+                border-radius: 8px;
+              ">
+            </div>
+            <div>
+                <label for="phone" style="font-size: 20px; font-weight: bold;"> Telp/Hp</label>
+                <input id="phone" type="tel" name="phone" style="
+                width: 100%;
+                padding: 8px;
+                box-sizing: border-box;
+                margin-top: 5px;
+                margin-bottom: 20px;
+                background-color: whitesmoke;
+                border: 1px solid gray;
+                border-radius: 8px;
+              ">    
+            </div>
+            <div>
+                <label for="pesan" style="font-size: 20px; font-weight: bold;"> Pesan Anda </label>
+                <textarea id="pesan" name="pesan" cols="30" rows="5" style="
+                width: 100%;
+                padding: 8px;
+                box-sizing: border-box;
+                margin-top: 5px;
+                margin-bottom: 20px;
+                background-color: whitesmoke;
+                border: 1px solid gray;
+                border-radius: 8px;
+              "></textarea>    
+            </div>
+            <button style="
+             background-color: firebrick;
+             border: none;
+             border-radius: 8px;
+             color: white;
+             cursor: pointer;
+             font-size: 17px;
+             padding: 10px 180px;
+            " type="button" onclick="submitData()"> Submit </button>
+            <script src="contact.js"></script>
+        </form>
+    </center>
+</body>
+</html>
